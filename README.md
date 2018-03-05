@@ -86,8 +86,10 @@ The output can be found in `/out/<HID>/`:
 
 ### SPHERE Gateways ###
 
-The two processors are named `F` and `G` as marked on the silkscreen of the PCB. For the root gateway programme only the `F` side.
+The two MCUs are named `F` and `G` as marked on the silkscreen of the PCB. 
 
-### SPHERE Environmental ###
+For the root gateway programme only the `F` side.
 
-Use the image marked as 'water sensor' if this environmental sensor has the water flow sensor plugin board.
+### SPHERE Environmental Sensors ###
+
+Use the image marked as 'water sensor' for the environmental sensors that have the water flow sensor board plugged.
