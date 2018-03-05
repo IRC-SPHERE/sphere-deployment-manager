@@ -32,6 +32,7 @@ total_wearables = 4
 ## Record of Houses ##
 
 Each house should be allocated a unique House ID (HID) and entered at the `sphere_network_id.csv`:
+
 - 1st column: Network ID (NID)
 - 2nd column: House ID (HID)
 - 3rd column: 1 if HID allocated to participant
