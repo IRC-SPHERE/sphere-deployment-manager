@@ -29,7 +29,7 @@ total_environmental = 4
 total_wearables = 4
 ~~~~
 
-## Record of Houses ##
+## Record of Deployments ##
 
 Each house should be allocated a unique House ID (HID) and entered at the `sphere_network_id.csv`:
 
