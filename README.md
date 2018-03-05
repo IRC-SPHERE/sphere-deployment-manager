@@ -1,8 +1,8 @@
 # README #
 
-## Password ##
+## Installation ##
 
-Ask Fontas (xenofon.fafoutis@bristol.ac.uk) for the password.
+Run `install.py` to setup a password.
 
 ## Configuration File ##
 
