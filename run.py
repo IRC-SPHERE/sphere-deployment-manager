@@ -54,7 +54,6 @@ def mac2ipv6(mac):
 def open_keyfile(password):
     with open ("ckeys.hash", "r") as f:
       hash=f.readlines()
-      print(hash)
     f.close()
     with open("ckeys", 'rb') as in_file:
         keys = enc.decrypt(in_file, password)
@@ -131,6 +130,10 @@ def make_image(network, keys, ieee_addr_le, ble_addr_le, offset, offsetend, file
  
 ###########################################################################################
 
+if not os.path.isfile('ckeys'):
+    print("Not installed. Run install.py first.")
+    sys.exit(1)
+
 # Input parameters
 if len(sys.argv) < 2:
     print("Incorrect input parameters. Set HID.")
@@ -183,7 +186,7 @@ if (deploy_version == 'dangermouse.41' or deploy_version == 'dangermouse.42'):
 	RG_G_Addr = DEVICE_OFFSET_GATEWAY_G
 else:
 	RG_G_Contiki = 1
-	RG_G_Addr = total_gateways + 1
+	RG_G_Addr = total_gateways + 2
 
 Wearable_Contiki = 0
 Wearable_Firmware_Filename = "SPW2_full.hex"
@@ -303,7 +306,7 @@ print("[Device: " + "%.3d" % (device_g) + "] Image created. Root Gateway (G): " 
 for gateway_count in range(1,total_gateways):
     device_count = device_count + 1
     # Other gateways F
-    device_f = DEVICE_OFFSET_GATEWAY_F + gateway_count
+    device_f = DEVICE_OFFSET_GATEWAY_F + gateway_count + 1
 
     label_addr = make_ieee_addr(PROJECT, network, device_f)
 
@@ -320,7 +323,7 @@ for gateway_count in range(1,total_gateways):
 
 
     # Other gateways G
-    device_g = DEVICE_OFFSET_GATEWAY_G + gateway_count
+    device_g = DEVICE_OFFSET_GATEWAY_G + gateway_count + 1
 
     label_addr = make_ieee_addr(PROJECT, network, device_g)
 

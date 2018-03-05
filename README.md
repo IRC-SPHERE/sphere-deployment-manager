@@ -20,7 +20,7 @@ Input example:
 >>type config\0000.cfg
 [DEFAULT]
 house_id = 0000
-tsch = 2_and_1_shared_schedule
+tsch = 3_and_1_shared_schedule
 total_gateways = 4
 total_environmental = 4
 total_wearables = 4
