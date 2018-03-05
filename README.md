@@ -4,6 +4,10 @@
 
 Run `install.py` to setup a password.
 
+### Dependencies ###
+
+Install all necessary python packages, `srecord` for `srec_cat`, and `texlive` for `pdflatex`.
+
 ## Configuration File ##
 
 Each folder name in `firmware/` corresponds to an available `version`.
