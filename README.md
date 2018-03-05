@@ -42,7 +42,7 @@ Each house should be allocated a unique House ID (HID) and entered at the `spher
 
 ~~~~
 >>python run.py 0000
-No explicit system version specified. Using default system version: dangermouse.42
+No explicit system version specified. Using default system version: elmer.4
 Password:
 SPHERE Deployment Manager - Report
 --------------------------------------------
