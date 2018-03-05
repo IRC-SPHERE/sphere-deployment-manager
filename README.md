@@ -79,6 +79,7 @@ Labels written in labels.pdf
 ## Output ##
 
 The output can be found in `/out/<HID>/`:
+
 - `/out/<HID>/img/`: Contains the images to be installed to the devices
 - `/out/<HID>/label.pdf`: Label file for printing
 
