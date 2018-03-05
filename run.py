@@ -14,9 +14,9 @@ import csv
 from os.path import join
 import shutil
 
-DEFAULT_DEPLOY_VERSION = 'dangermouse.42' # Set here the default version to deploy
+DEFAULT_DEPLOY_VERSION = 'elmer.4' # Set here the default version to deploy
 
-PROJECT = 0 # 0 for IRC-SPHERE
+PROJECT = 1 # 0 for IRC-SPHERE
 
 DEVICE_OFFSET_GATEWAY_F = 1
 DEVICE_OFFSET_GATEWAY_G = 64
