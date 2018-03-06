@@ -11,8 +11,8 @@ Install all necessary python packages, `srecord` for `srec_cat`, and `texlive` f
 ## Configuration File ##
 
 - `house_id`: House ID (HID)
-- `version`: System version to use (optional). Run `install.py` to setup a password.
-- `tsch`: TSCH Schedule to use. Gateways should match schedule: e.g. for 4 total gateways use 3_and_1_shared_schedule. 
+- `version`: System version to use as in `/firmware/` (optional).
+- `tsch`: TSCH Schedule to use. Gateways should match schedule: e.g. for 4 total gateways use `3_and_1_shared_schedule`. 
 - `total_gateway`: Total number of gateways including root gateway.
 - `total_environmental`: Total number of environmental sensors.
 - `total_wearables`: Total number of wearable sensors.
