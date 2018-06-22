@@ -1,8 +1,9 @@
+
 # README #
 
 ## Information ##
 
-The SPHERE Deployment Manager is a tool for preparing deployment images for the SPHERE IoT platforms. Detailed information is available in [1] (preprint available [here](https://seis.bristol.ac.uk/~xf14883/files/conf/2018_adhocnow_deployment.pdf)). If you use the SPHERE Deployment Manager you are kindly asked to cite [1].
+The SPHERE Deployment Manager is a tool for preparing deployment images for the SPHERE IoT platforms. Detailed information is available in [1] ([preprint](https://seis.bristol.ac.uk/~xf14883/files/conf/2018_adhocnow_deployment.pdf)). If you use the SPHERE Deployment Manager you are kindly asked to cite [1].
 
 
 ```
