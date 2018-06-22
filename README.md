@@ -1,5 +1,21 @@
 # README #
 
+## Information ##
+
+The SPHERE Deployment Manager is a tool for preparing deployment images for the SPHERE IoT platforms.
+
+Detailed information is available in [1] (preprint available [here](https://seis.bristol.ac.uk/~xf14883/files/conf/2018_adhocnow_deployment.pdf)). If you use the SPHERE Deployment Manager you are kindly asked to cite [1].
+
+
+```
+@inproceedings{Fafoutis2018SDM,
+  author={Fafoutis, X. and Elsts, A. and Oikonomou, G. and Piechocki, R.},
+  title={{SPHERE Deployment Manager: A Tool for Deploying IoT Sensor Networks at Large Scale}},
+  booktitle={Proc. 17th International Conference on Ad Hoc Networks and Wireless (AdHoc-NOW)},
+  year={2018}
+}
+```
+
 ## Installation ##
 
 Run `install.py` to setup a password.
@@ -94,3 +110,4 @@ For the root gateway programme only the `F` side.
 ### SPHERE Environmental Sensors ###
 
 Use the image marked as 'water sensor' for the environmental sensors that have the water flow sensor board plugged.
+
